@@ -5,7 +5,58 @@
 body {
   margin: 0;
   padding: 0;
-  background: dodgerblue;
+  background: url('https://i2-prod.chroniclelive.co.uk/incoming/article10716951.ece/ALTERNATES/s1227b/JS79891423.jpg') center no-repeat fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+h1 {
+  font-size: 100px;
   color: white;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  padding-top: 80px;
+  padding-left: 50px;
+  margin-bottom: -10px;
+}
+h2 {
+  padding-top: 30px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+  padding-left: 50px;
+}
+.buttonBoard {
+  background-color: #ff00de; /* Fallback: navy blue in hexadecimal notation */
+  color: #ffffff; /* Fallback: white in hexadecimal notation */
+  background-color: rgba(0, 0, 0, 0.5); /* navy blue with 50% opacity */
+  color: rgba(255, 255, 255, 0.3); /* white with 30% opacity */
+  height: 340px;
+  /* box-shadow: 0 0 5px 10px rgba(255, 255, 255, 0.3); */
 
 }
+.buttons {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  height: 145px;
+  width: 280px;
+  border-radius: 20px;
+  outline-color: hotpink;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  background-color: inherit;
+  margin-left: 30px;
+}
+button:hover {
+  color: #ff00de;
+}
+
+
+  /* TOP FONTS */
+  /* font-family: 'Dancing Script', cursive;
+  font-family: 'Meie Script', cursive;
+  3rd: font-family: 'BioRhyme Expanded', serif;*/
+
+  /* color: #ff4fa7; */
